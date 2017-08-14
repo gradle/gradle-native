@@ -1,5 +1,6 @@
 ## Topics
 
+- Supported platforms and tool chains, install instructions
 - Define a library
 - Define an application
 - Define dependency on a libraries
@@ -13,3 +14,4 @@
 - Using with composite builds
 - Incremental compile
 - Migration from Swift Package manager, CMake
+- Dealing with different source layouts, in particular the case where source files for multiple components are in the same source directory
