@@ -12,7 +12,8 @@ As of 4.1, Gradle includes several plugins for building applications and librari
 ## Features
 
 - Compile and link libraries and applications from C++ and Swift source.
-- Build for MacOS, Linux and Windows.
+- Build C++ for MacOS, Linux and Windows.
+- Build Swift for MacOS and Linux.
 - Supports GCC, Clang, Visual Studio, MinGW compilers.
 - Tool chain discovery, including discovery of these compilers when running on cygwin.
 - Xcode integration, to allow you to generate Xcode workspace and project files from your Gradle build.
