@@ -3,8 +3,10 @@
 - Supported platforms and tool chains, install instructions
 - Define a library
 - Define an application
-- Define dependency on a libraries
+- Define dependency on a library
 - Prebuilt binaries
+- Binary dependencies and publishing
+- Source dependencies
 - Building and installation
 - Configuring source and header locations and source files
 - Configuring library and application name and module
@@ -12,9 +14,12 @@
 - Private and public C++ headers
 - Release and debug builds
 - Xcode integration
+- Unit tests with XCTest, Google test
 - XCTest integration
 - Using with composite builds
 - Incremental compile
 - Migration from Swift Package manager, CMake
 - Dealing with different source layouts, in particular the case where source files for multiple components are in the same source directory
 - Describe the model has 3 layers: component, binary and task
+- Code generation
+- Using the build output in other tasks
