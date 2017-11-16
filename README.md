@@ -12,12 +12,12 @@ As of 4.1, Gradle includes several plugins for building applications and librari
 ## Features
 
 - Compile and link libraries and applications from C++ and Swift source.
-- Build C++ for MacOS, Linux and Windows.
-- Build Swift for MacOS and Linux.
+- Build C++ for macOS, Linux and Windows.
+- Build Swift for macOS and Linux.
 - Supports GCC, Clang, Visual Studio, MinGW compilers.
 - Fast parallel, incremental compilation.
-- Distributed caching.
-- Transitive dependency management, including support for composite builds. External dependencies (those from a binary repository) and pre-built binaries are not yet supported.
+- Distributed caching of C++ and Swift compilation and linking.
+- Transitive dependency management, including support for composite builds and pre-built binaries from a Maven binary repository. Other pre-built binaries are not yet supported
 - Tool chain discovery, including discovery of these compilers when running on cygwin.
 - Xcode integration, to allow you to generate Xcode workspace and project files from your Gradle build.
-- XCTest integration. Currently only supported on macOs.
+- XCTest integration, supported on macOs and Linux.
