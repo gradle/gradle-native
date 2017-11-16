@@ -17,7 +17,7 @@
 - Unit tests with XCTest, Google test
 - XCTest integration
 - Using with composite builds
-- Incremental compile
+- Incremental compile and caching
 - Migration from Swift Package manager, CMake
 - Dealing with different source layouts, in particular the case where source files for multiple components are in the same source directory
 - Describe the model has 3 layers: component, binary and task
