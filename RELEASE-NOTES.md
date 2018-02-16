@@ -8,14 +8,14 @@ TBD
 
 ### Changes included in Gradle 4.6
 
-- We simplified Visual Studio project generation in multi-project builds to create a single solution instead of a solution for every project. #410
-- We refactored the `visual-studio` plugin to make it easier for us to add support for the new C++ plugins. #407
-- We added performance tests for Swift-based builds. #209
-- We added incremental compilation support for Swift. #112
-- We fixed handling of more failure cases for source dependencies. #422, #421
-- We added `sourceCompatibility` for a Swift component. Gradle tries to select the best compiler for producing a given Swift language level. #151
-- We support version range descriptors for source dependencies. #195
-- We support injecting build configuration into a source dependency. Gradle can consume non-Gradle source dependencies by injecting a Gradle build on top. #89
+- We simplified Visual Studio project generation in multi-project builds to create a single solution instead of a solution for every project. [#410](https://github.com/gradle/gradle-native/issues/410)
+- We refactored the `visual-studio` plugin to make it easier for us to add support for the new C++ plugins. [#407](https://github.com/gradle/gradle-native/issues/407)
+- We added performance tests for Swift-based builds. [#209](https://github.com/gradle/gradle-native/issues/209)
+- We added incremental compilation support for Swift. [#112](https://github.com/gradle/gradle-native/issues/112)
+- We fixed handling of more failure cases for source dependencies. [#421](https://github.com/gradle/gradle-native/issues/421) [#422](https://github.com/gradle/gradle-native/issues/422)
+- We added `sourceCompatibility` for a Swift component. Gradle tries to select the best compiler for producing a given Swift language level. [#151](https://github.com/gradle/gradle-native/issues/151)
+- We support version range descriptors for source dependencies. [#195](https://github.com/gradle/gradle-native/issues/195)
+- We support injecting build configuration into a source dependency. Gradle can consume non-Gradle source dependencies by injecting a Gradle build on top. [#89](https://github.com/gradle/gradle-native/issues/89)
 
 This list is incomplete.
 
