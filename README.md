@@ -30,7 +30,7 @@ This project adheres to the [Gradle Code of Conduct](https://gradle.org/conduct/
 
 ## Latest updates
 
-You can track [closed issues](https://github.com/gradle/gradle-native/issues?q=is%3Aissue+is%3Aclosed) and our regular updates in our [release notes](RELEASE-NOTES.md).
+You can track [closed issues](https://github.com/gradle/gradle-native/issues?q=is%3Aissue+is%3Aclosed) and our regular updates in our [release notes](docs/RELEASE-NOTES.md).
 
 ## Contributing
 
