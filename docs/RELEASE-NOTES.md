@@ -4,7 +4,8 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ### Changes included in Gradle nightly (next release)
 
-TBD
+- We added a [sample](https://github.com/gradle/native-samples#application-uses-a-library-built-by-cmake-cmake-library) that shows how to use libraries built by CMake from Gradle builds.
+- We added a [sample](https://github.com/gradle/native-samples#simple-application-application) that shows how to configure the C++ plugins to build C source code, as a workaround until we add C plugins.
 
 ### Changes included in Gradle 4.6
 
@@ -15,7 +16,9 @@ TBD
 - We fixed handling of more failure cases for source dependencies. [#421](https://github.com/gradle/gradle-native/issues/421) [#422](https://github.com/gradle/gradle-native/issues/422)
 - We added `sourceCompatibility` for a Swift component. Gradle tries to select the best compiler for producing a given Swift language level. [#151](https://github.com/gradle/gradle-native/issues/151)
 - We support version range descriptors for source dependencies. [#195](https://github.com/gradle/gradle-native/issues/195)
+- We support source dependencies on a branch. [#417](https://github.com/gradle/gradle-native/issues/417)
 - We support injecting build configuration into a source dependency. Gradle can consume non-Gradle source dependencies by injecting a Gradle build on top. [#89](https://github.com/gradle/gradle-native/issues/89)
+- We support generation of a Swift Package Manager manifest file from the Gradle model. [#40](https://github.com/gradle/gradle-native/issues/40)
 
 This list is incomplete.
 

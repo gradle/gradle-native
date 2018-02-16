@@ -9,6 +9,7 @@
 - Binary dependencies and publishing
 - Source dependencies
     - Declaring and using
+    - Dependency on version, ranges, branch
     - Injecting build logic
 - Building and installation
 - Configuring source and header locations and source files

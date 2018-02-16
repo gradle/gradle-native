@@ -18,7 +18,7 @@ This project adheres to the [Gradle Code of Conduct](https://gradle.org/conduct/
 - Compile and link libraries and applications from C++ and Swift source.
 - Build C++ for macOS, Linux and Windows.
 - Build Swift for macOS and Linux.
-- Supports GCC, Clang, Visual Studio, MinGW compilers.
+- Supports GCC, Clang, Visual C++, MinGW compilers.
 - Fast parallel, incremental compilation for C++.
 - Incremental compilation for Swift.
 - Distributed caching of C++ and Swift compilation.
