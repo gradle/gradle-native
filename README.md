@@ -9,6 +9,10 @@ As of 4.1, Gradle includes several plugins for building applications and librari
 - Samples are in the [native-samples](https://github.com/gradle/native-samples) repo.
 - The source code for the plugins still lives in the [gradle](https://github.com/gradle/gradle) repo and will migrate here over time.
 
+For more information about Gradle, please visit: https://gradle.org
+
+This project adheres to the [Gradle Code of Conduct](https://gradle.org/conduct/). By participating, you are expected to uphold this code.
+
 ## Features
 
 - Compile and link libraries and applications from C++ and Swift source.
@@ -27,3 +31,7 @@ As of 4.1, Gradle includes several plugins for building applications and librari
 ## Latest updates
 
 You can track [closed issues](https://github.com/gradle/gradle-native/issues?q=is%3Aissue+is%3Aclosed) and our regular updates in our [release notes](RELEASE-NOTES.md).
+
+## Contributing
+
+If you're looking to contribute to Gradle or provide a patch/pull request, you can find more info [here](https://github.com/gradle/gradle-native/blob/master/.github/CONTRIBUTING.md).
