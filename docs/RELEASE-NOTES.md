@@ -1,6 +1,6 @@
 ## Gradle Native Release Notes
 
-We add noteworthy updates to our [native-samples](https://github.com/gradle/native-samples) and native language support here.
+We add noteworthy updates to our [native-samples](https://github.com/gradle/native-samples) and new [native language support plugins](https://blog.gradle.org/introducing-the-new-cpp-plugins) here.
 
 ### Changes included in Gradle nightly (next release)
 
