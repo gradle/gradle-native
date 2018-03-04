@@ -2,10 +2,16 @@
 
 The home of Gradle's support for natively compiled languages. 
 
-As of 4.1, Gradle includes several plugins for building applications and libraries from C++ and Swift sources.
+## Latest updates
 
-- Issue related to Gradle's support for native languages are tracked in this repo
-- This repository also includes some [WIP documentation](docs/README.md) 
+You can track [closed issues](https://github.com/gradle/gradle-native/issues?q=is%3Aissue+is%3Aclosed) and our regular updates in our [release notes](docs/RELEASE-NOTES.md).
+
+## What is gradle-native?
+
+As of 4.1, Gradle includes several plugins for building applications and libraries from C++ and Swift sources. Check out the [blog post](https://blog.gradle.org/introducing-the-new-cpp-plugins) for an introduction.
+
+- Issues related to Gradle's support for native languages are tracked in this repo.
+- This repository also includes some [WIP documentation](docs/README.md) and [release notes](docs/RELEASE-NOTES.md)
 - Samples are in the [native-samples](https://github.com/gradle/native-samples) repo.
 - The source code for the plugins still lives in the [gradle](https://github.com/gradle/gradle) repo and will migrate here over time.
 
@@ -23,14 +29,12 @@ This project adheres to the [Gradle Code of Conduct](https://gradle.org/conduct/
 - Incremental compilation for Swift.
 - Distributed caching of C++ and Swift compilation.
 - Transitive dependency management, including support for composite builds and pre-built binaries from a Maven binary repository. Other pre-built binaries are not yet supported.
+- Source dependencies.
 - Publishing dependencies to a Maven binary repository.
-- Tool chain discovery, including discovery of these compilers when running on cygwin.
+- Tool chain discovery based on requirements declared in the build, including discovery of these compilers when running on cygwin or using Visual C++.
 - Xcode integration, to allow you to generate Xcode workspace and project files from your Gradle build.
+- Visual Studio integration, to allow you to generate a Visual Studio solution and project files from your Gradle build.
 - XCTest integration, supported on macOs and Linux.
-
-## Latest updates
-
-You can track [closed issues](https://github.com/gradle/gradle-native/issues?q=is%3Aissue+is%3Aclosed) and our regular updates in our [release notes](docs/RELEASE-NOTES.md).
 
 ## Contributing
 
