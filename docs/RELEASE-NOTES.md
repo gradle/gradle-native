@@ -4,8 +4,10 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ### Changes included in Gradle nightly (next release)
 
-- Added support for declaring the target operating systems for C++ applications and libraries. [#465](https://github.com/gradle/gradle-native/issues/509).
-- Added support for Visual Studio solution generation using the `visual-studio` plugin. [#465](https://github.com/gradle/gradle-native/issues/465).
+- Added support for declaring the target operating systems for C++ applications and libraries. [#509](https://github.com/gradle/gradle-native/issues/509).
+- Added support for Visual Studio solution generation using the `visual-studio` plugin. [#465](https://github.com/gradle/gradle-native/issues/465), [#476](https://github.com/gradle/gradle-native/issues/476), [#506](https://github.com/gradle/gradle-native/issues/506)
+- Allow generated Xcode workspace, Visual Studio solution to be opened more easily from the command line. [#553](https://github.com/gradle/gradle-native/issues/553)
+- Various Xcode fixes. [#474](https://github.com/gradle/gradle-native/issues/474), [#470](https://github.com/gradle/gradle-native/issues/470), [#552](https://github.com/gradle/gradle-native/issues/552)
 - Added a [sample](https://github.com/gradle/native-samples#application-uses-a-library-built-by-cmake-cmake-library) that shows how to use libraries built by CMake from Gradle builds.
 - Added a [sample](https://github.com/gradle/native-samples#simple-application-application) that shows how to configure the C++ plugins to build C source code, as a workaround until we add C plugins.
 
