@@ -4,7 +4,8 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ### Changes included in Gradle nightly (next release)
 
-- TBD
+- Fixed the `cpp-unit-test` plugin so that the dependencies of the main component are visible to the unit test binaries at compile and link time. [#647](https://github.com/gradle/gradle-native/issues/647)
+- Fixed the `cpp-unit-test` plugin to allow an application to be tested. Does not yet work on Windows.
 
 ### Changes included in Gradle 4.7
 
@@ -12,7 +13,7 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 - Added support for declaring the target operating systems for C++/Swift applications and libraries. [#509](https://github.com/gradle/gradle-native/issues/509).
 - Added support for Visual Studio solution generation using the `visual-studio` plugin. [#465](https://github.com/gradle/gradle-native/issues/465), [#476](https://github.com/gradle/gradle-native/issues/476), [#506](https://github.com/gradle/gradle-native/issues/506)
 - Allow generated Xcode workspace, Visual Studio solution or IDEA project to be opened more easily from the command line. [#553](https://github.com/gradle/gradle-native/issues/553)
-- Various Xcode fixes. [#474](https://github.com/gradle/gradle-native/issues/474), [#470](https://github.com/gradle/gradle-native/issues/470), [#552](https://github.com/gradle/gradle-native/issues/552)
+- Various Xcode workspace generation fixes. [#474](https://github.com/gradle/gradle-native/issues/474), [#470](https://github.com/gradle/gradle-native/issues/470), [#552](https://github.com/gradle/gradle-native/issues/552)
 - Added a [sample](https://github.com/gradle/native-samples#application-uses-a-library-built-by-cmake-cmake-library) that shows how to use libraries built by CMake from Gradle builds.
 - Added a [sample](https://github.com/gradle/native-samples#simple-application-application) that shows how to configure the C++ plugins to build C source code, as a workaround until we add C plugins.
 - Added a [sample](https://github.com/gradle/native-samples#provisioning-tool-chains-from-within-gradle-provisionable-tool-chains) that shows how to use Gradle to provision a tool chain for the build.
