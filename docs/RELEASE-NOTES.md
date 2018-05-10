@@ -1,16 +1,27 @@
-## Gradle Native Release Notes
+# Gradle Native Release Notes
 
 We add noteworthy updates to our [native-samples](https://github.com/gradle/native-samples) and new [native language support plugins](https://blog.gradle.org/introducing-the-new-cpp-plugins) here.
 
-### Changes included in Gradle nightly (next release)
+## Changes included in Gradle nightly (next release)
 
-### Changes included in Gradle 4.8
+## Changes included in Gradle 4.8
 
-- Fixed the `cpp-unit-test` plugin so that the dependencies of the main component are visible to the unit test binaries at compile and link time. [#647](https://github.com/gradle/gradle-native/issues/647)
-- Fixed the `cpp-unit-test` plugin to allow an application to be tested. Does not yet work on Windows.
-- Better control over system include path for native compilation. [#583](https://github.com/gradle/gradle-native/issues/583)
+### Expose main C++ component to unit test binary - [#647](https://github.com/gradle/gradle-native/issues/647)
 
-### Changes included in Gradle 4.7
+The `cpp-unit-test` plugin was fixed so that the dependencies of the main component are visible to the unit test binaries at compile and link time. 
+
+### Allow C++ application to be tested
+
+The `cpp-unit-test` plugin will automatically relocate the main symbol to avoid duplicate `_main` symbol errors.
+Note this feature is not yet supported on Windows.
+
+### Better control over system include path for native compilation - [#583](https://github.com/gradle/gradle-native/issues/583)
+
+In previous versions of Gradle, the native compile task include path was a single monolithic collection of files that was accessible through the `includes` property on the compile task.
+In Gradle 4.8, system header include directories can now be accessed separately via the `systemIncludes` property. 
+On GCC-compatible toolchains, the system header include directories specified with `systemIncludes` will be specified on the command line using the ["-isystem" argument](https://gcc.gnu.org/onlinedocs/gcc/Directory-Options.html), which marks them for special treatment by the compiler.
+
+## Changes included in Gradle 4.7
 
 - Converted all of the Swift-related tasks to use the Provider API consistently [#308](https://github.com/gradle/gradle-native/issues/308).
 - Added support for declaring the target operating systems for C++/Swift applications and libraries. [#509](https://github.com/gradle/gradle-native/issues/509).
@@ -23,7 +34,7 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 - Fixed Visual Studio version detection to prevent bad Visual Studio installations from failing the build. [#570](https://github.com/gradle/gradle-native/issues/570)
 - Made Visual Studio project generation incremental, so only Visual Studio project files that have changed are regenerated. [#506](https://github.com/gradle/gradle-native/issues/506)
 
-### Changes included in Gradle 4.6
+## Changes included in Gradle 4.6
 
 - Simplified Visual Studio project generation in multi-project builds to create a single solution instead of a solution for every project. [#410](https://github.com/gradle/gradle-native/issues/410)
 - Refactored the `visual-studio` plugin to make it easier for us to add support for the new C++ plugins. [#407](https://github.com/gradle/gradle-native/issues/407)
@@ -38,6 +49,6 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 This list is incomplete.
 
-### Changes included in earlier Gradle releases
+## Changes included in earlier Gradle releases
 
 gradle-native has been adding features since Gradle 4.1. Features are introduced as `@Incubating` and may change between Gradle minor releases.
