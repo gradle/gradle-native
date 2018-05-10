@@ -4,6 +4,8 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ### Changes included in Gradle nightly (next release)
 
+### Changes included in Gradle 4.8
+
 - Fixed the `cpp-unit-test` plugin so that the dependencies of the main component are visible to the unit test binaries at compile and link time. [#647](https://github.com/gradle/gradle-native/issues/647)
 - Fixed the `cpp-unit-test` plugin to allow an application to be tested. Does not yet work on Windows.
 - Better control over system include path for native compilation. [#583](https://github.com/gradle/gradle-native/issues/583)
