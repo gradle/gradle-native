@@ -4,6 +4,9 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
+### Bugfixes
+- XCTest succeeds when it should fail [#378](https://github.com/gradle/gradle-native/issues/378)
+
 ## Changes included in Gradle 4.8
 
 ### Expose main C++ component to unit test binary - [#647](https://github.com/gradle/gradle-native/issues/647)
@@ -14,6 +17,10 @@ The `cpp-unit-test` plugin was fixed so that the dependencies of the main compon
 
 The `cpp-unit-test` plugin will automatically relocate the main symbol to avoid duplicate `_main` symbol errors.
 Note this feature is not yet supported on Windows.
+
+### Performance improvements for header analysis
+
+Gradle will reuse header analysis from the previous execution if nothing has changed.
 
 ### Better control over system include path for native compilation - [#583](https://github.com/gradle/gradle-native/issues/583)
 
