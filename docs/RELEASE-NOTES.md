@@ -4,11 +4,16 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
-TBD
+## Changes included in Gradle 4.10
+
+- C++ tooling API model that IDEs can use for import or sync - [#673](https://github.com/gradle/gradle-native/issues/673)
+- Source dependencies honor the `--offline` flag - [#430](https://github.com/gradle/gradle-native/issues/430)
+- Source dependencies reduce remote Git operations - [#403](https://github.com/gradle/gradle-native/issues/403)
 
 ## Changes included in Gradle 4.9
 
 ### Bugfixes
+
 - Fixed text rendering issues in console that caused output from long running tasks to be broken by tasks that produced no output [#669](https://github.com/gradle/gradle-native/issues/669)
 - XCTest succeeds when it should fail [#378](https://github.com/gradle/gradle-native/issues/378)
 
