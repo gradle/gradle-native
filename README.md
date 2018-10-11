@@ -6,6 +6,8 @@ The home of Gradle's support for natively compiled languages.
 
 You can track [closed issues](https://github.com/gradle/gradle-native/issues?q=is%3Aissue+is%3Aclosed) and our regular updates in our [release notes](docs/RELEASE-NOTES.md).
 
+We have a [`#native` Slack channel](https://gradle-community.slack.com/archives/CA7UM03V3/p1539291588000100) on the [Gradle Community Slack](https://discuss.gradle.org/t/introducing-gradle-community-slack/26731).
+
 ## What is gradle-native?
 
 As of 4.1, Gradle includes several plugins for building applications and libraries from C++ and Swift sources. Check out the [blog post](https://blog.gradle.org/introducing-the-new-cpp-plugins) for an introduction.
