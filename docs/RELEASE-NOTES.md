@@ -4,6 +4,12 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
+- Incremental compile processor takes preprocessor macros declared on the compile task into account - [#882](https://github.com/gradle/gradle-native/issues/882)
+
+## Changes included in Gradle 5.0
+
+- C++ compilation uses wrong system includes files on Cygwin - [#763](https://github.com/gradle/gradle-native/issues/763)
+
 ## Changes included in Gradle 4.10
 
 - C++ tooling API model that IDEs can use for import or sync - [#673](https://github.com/gradle/gradle-native/issues/673)
