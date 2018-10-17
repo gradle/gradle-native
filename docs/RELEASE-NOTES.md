@@ -8,7 +8,8 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle 5.0
 
-- C++ compilation uses wrong system includes files on Cygwin - [#763](https://github.com/gradle/gradle-native/issues/763)
+- C++ compilation uses correct system includes files on Cygwin - [#763](https://github.com/gradle/gradle-native/issues/763)
+- [Introduced source dependencies](https://blog.gradle.org/introducing-source-dependencies) - automatically build against a git repository.
 
 ## Changes included in Gradle 4.10
 
