@@ -23,6 +23,7 @@ Finally, in Gradle 5.0 we introduced the following changes:
 
 - C++ compilation uses correct system includes files on Cygwin - [#763](https://github.com/gradle/gradle-native/issues/763)
 - [Introduced source dependencies](https://blog.gradle.org/introducing-source-dependencies) - automatically build against a git repository.
+- Improve performance for header analysis when external macros are defined - [#882](https://github.com/gradle/gradle-native/issues/882)
 
 ## Changes included in Gradle 4.10
 
