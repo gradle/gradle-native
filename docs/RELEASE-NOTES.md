@@ -8,22 +8,24 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle 5.0
 
-Since 4.0, the Gradle team have been hard at work improving the native support for Gradle.
-First and foremost, Gradle formed a dedicated team to tackle all native related issues and partnerships.
-From there the [`gradle/gradle-native`](https://github.com/gradle/gradle-native) was created as well as a dedicated `native` tag on the [user forum](https://discuss.gradle.org).
-We [announced our focus shift from the software model to the current configuration model](https://blog.gradle.org/state-and-future-of-the-gradle-software-model).
-This led to the development of the [new C++ plugins](https://blog.gradle.org/introducing-the-new-cpp-plugins) which are used throughout our [use-case focused samples](https://github.com/gradle/native-samples).
-Those new C++ plugins are incubating and will be replacing the old C++ plugins.
-During the 4.x releases, the native team worked on generating a single Visual Studio solution per multi-project build making the `visual-studio` plugin behave like our other IDE plugins.
-As part of our Swift work, we also introduce support for Xcode IDE.
-We expended our tool chain support to include Visual Studio 2017 compilers together with Windows 10 SDK.
-We improved performance by introducing link task output caching as well as parallel-by-default for the compile and link tasks within a project.
-With the new C++ plugins, it is possible to unit test a C++ application right out-of-the-box.
-We worked with JetBrains to develop a C++ tooling API model to allow [Clion to import and sync Gradle projects](https://www.jetbrains.com/help/clion/gradle-support.html).
-Finally, in Gradle 5.0 we introduced the following changes:
+Since 4.0, the Gradle team have been hard at work improving support for native projects in Gradle.
 
+First and foremost, Gradle formed a team to tackle all native related issues and development. We created a separate issue tracker ([`gradle/gradle-native`](https://github.com/gradle/gradle-native)) and a dedicated `native` tag on the [user forum](https://discuss.gradle.org).
+
+We [announced our focus shift from the software model to the current configuration model](https://blog.gradle.org/state-and-future-of-the-gradle-software-model) to make developing native projects more similar to existing Java, Groovy and Scala plugins. This led to the development of the [new C++ plugins](https://blog.gradle.org/introducing-the-new-cpp-plugins) that are used throughout our [use-case focused samples](https://github.com/gradle/native-samples).
+
+Those new C++ plugins are still experimental but will eventually replace the software model based C++ plugins.
+
+During the 4.x releases, we made changes to Visual Studio solution generation to make it easier to work with multi-project builds in Visual Studio. We also introduce support for developing C++ with the Xcode IDE on macOS. JetBrains integrated support for [importing and syncing Gradle projects](https://www.jetbrains.com/help/clion/gradle-support.html) into Clion.
+
+We expanded our tool chain support to include Visual Studio 2017 together with Windows 10 SDK.
+
+We improved performance by supporting parallel execution for compilation and linking.  We also support for cached [compilation](https://docs.gradle.org/4.5/release-notes.html#c/c++-compilation-improvements). With the new C++ plugins, it is possible to unit test a C++ application right out-of-the-box.
+
+We recently [introduced source dependencies](https://blog.gradle.org/introducing-source-dependencies), which allow any Gradle project (native or not) to build against a git repository.
+
+### Bugfixes
 - C++ compilation uses correct system includes files on Cygwin - [#763](https://github.com/gradle/gradle-native/issues/763)
-- [Introduced source dependencies](https://blog.gradle.org/introducing-source-dependencies) - automatically build against a git repository.
 - Improve performance for header analysis when external macros are defined - [#882](https://github.com/gradle/gradle-native/issues/882)
 
 ## Changes included in Gradle 4.10
