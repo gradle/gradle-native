@@ -12,7 +12,7 @@ Since 4.0, the Gradle team have been hard at work improving the native support f
 First and foremost, Gradle formed a dedicated team to tackle all native related issues and partnerships.
 From there the [`gradle/gradle-native`](https://github.com/gradle/gradle-native) was created as well as a dedicated `native` tag on the [user forum](https://discuss.gradle.org).
 We [announced our focus shift from the software model to the current configuration model](https://blog.gradle.org/state-and-future-of-the-gradle-software-model).
-This led to the development of the [new C++ plugins which were highlighted inside a blog post](https://blog.gradle.org/introducing-the-new-cpp-plugins) as well as through our [use-case focused samples](https://github.com/gradle/native-samples).
+This led to the development of the [new C++ plugins](https://blog.gradle.org/introducing-the-new-cpp-plugins) which are used throughout our [use-case focused samples](https://github.com/gradle/native-samples).
 Those new C++ plugins are incubating and will be replacing the old C++ plugins.
 During the 4.x releases, the native team worked on generating a single Visual Studio solution per multi-project build making the `visual-studio` plugin behave like our other IDE plugins.
 As part of our Swift work, we also introduce support for Xcode IDE.
