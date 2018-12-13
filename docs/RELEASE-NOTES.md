@@ -4,6 +4,10 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
+TBD
+
+## Changes included in Gradle 5.1
+
 - Incremental compile processor takes preprocessor macros declared on the compile task into account - [#882](https://github.com/gradle/gradle-native/issues/882)
 - Support for declaring different architecture targets (x86, x86-64) [#777](https://github.com/gradle/gradle-native/issues/777)
 
