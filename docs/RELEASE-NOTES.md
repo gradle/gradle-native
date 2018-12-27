@@ -4,7 +4,8 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
-TBD
+- Official support for GCC with Cygwin64 [#127]
+- Official support for GCC with MinGW64 [#419]
 
 ## Changes included in Gradle 5.1
 
