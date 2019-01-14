@@ -4,8 +4,13 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
+- TBD
+
+## Changes included in Gradle 5.2
+
 - Official support for GCC with Cygwin64 [#127](https://github.com/gradle/gradle-native/issues/127)
 - Official support for GCC with MinGW64 [#419](https://github.com/gradle/gradle-native/issues/419)
+- Gradle emits a warning message when trying to build a project that does not target the host operating system [#929](https://github.com/gradle/gradle-native/issues/929)
 
 ## Changes included in Gradle 5.1
 
