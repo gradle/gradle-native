@@ -11,6 +11,8 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 - Official support for GCC with Cygwin64 [#127](https://github.com/gradle/gradle-native/issues/127)
 - Official support for GCC with MinGW64 [#419](https://github.com/gradle/gradle-native/issues/419)
 - Gradle emits a warning message when trying to build a project that does not target the host operating system [#929](https://github.com/gradle/gradle-native/issues/929)
+- Gradle now relocates the main symbol in applications, so they can be tested like libraries [community PR](https://github.com/gradle/gradle/pull/8127).
+- Gradle's `init` task can now generate C++ application and library sample projects.
 
 ## Changes included in Gradle 5.1
 
