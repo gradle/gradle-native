@@ -4,20 +4,21 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
-- Fix native test plugins when application has multiple target machines [PR](https://github.com/gradle/gradle/pull/8819)
+- Fix native test plugins when application has multiple target machines - [PR](https://github.com/gradle/gradle/pull/8819)
+- C++ compile tasks complete with `NO-SOURCE` when no compilation units are present - [PR](https://github.com/gradle/gradle/pull/8815)
 
 ## Changes included in Gradle 5.2
 
-- Official support for GCC with Cygwin64 [#127](https://github.com/gradle/gradle-native/issues/127)
-- Official support for GCC with MinGW64 [#419](https://github.com/gradle/gradle-native/issues/419)
-- Gradle emits a warning message when trying to build a project that does not target the host operating system [#929](https://github.com/gradle/gradle-native/issues/929)
-- Gradle now relocates the main symbol in applications, so they can be tested like libraries [community PR](https://github.com/gradle/gradle/pull/8127).
+- Official support for GCC with Cygwin64 - [#127](https://github.com/gradle/gradle-native/issues/127)
+- Official support for GCC with MinGW64 - [#419](https://github.com/gradle/gradle-native/issues/419)
+- Gradle emits a warning message when trying to build a project that does not target the host operating system - [#929](https://github.com/gradle/gradle-native/issues/929)
+- Gradle now relocates the main symbol in applications, so they can be tested like libraries - [community PR](https://github.com/gradle/gradle/pull/8127).
 - Gradle's `init` task can now generate C++ application and library sample projects.
 
 ## Changes included in Gradle 5.1
 
 - Incremental compile processor takes preprocessor macros declared on the compile task into account - [#882](https://github.com/gradle/gradle-native/issues/882)
-- Support for declaring different architecture targets (x86, x86-64) [#777](https://github.com/gradle/gradle-native/issues/777)
+- Support for declaring different architecture targets (x86, x86-64) - [#777](https://github.com/gradle/gradle-native/issues/777)
 
 ## Changes included in Gradle 5.0
 
@@ -52,7 +53,7 @@ We recently [introduced source dependencies](https://blog.gradle.org/introducing
 ### Bugfixes
 
 - Fixed text rendering issues in console that caused output from long running tasks to be broken by tasks that produced no output [#669](https://github.com/gradle/gradle-native/issues/669)
-- XCTest succeeds when it should fail [#378](https://github.com/gradle/gradle-native/issues/378)
+- XCTest succeeds when it should fail - [#378](https://github.com/gradle/gradle-native/issues/378)
 
 ## Changes included in Gradle 4.8
 
