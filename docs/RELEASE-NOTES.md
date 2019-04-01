@@ -6,6 +6,7 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 - Fix native test plugins when application has multiple target machines - [PR](https://github.com/gradle/gradle/pull/8819)
 - C++ compile tasks complete with `NO-SOURCE` when no compilation units are present - [PR](https://github.com/gradle/gradle/pull/8815)
+- Official support for Swift 5 language released with Xcode 10.2 - [PR](https://github.com/gradle/gradle/pull/8852)
 
 ## Changes included in Gradle 5.2
 
