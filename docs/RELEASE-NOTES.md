@@ -4,6 +4,10 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
+## Changes included in Gradle 5.5
+
+- All native documentations have been updated to use the new C++ plugins
+
 ## Changes included in Gradle 5.4
 
 - Fix native test plugins when application has multiple target machines - [PR](https://github.com/gradle/gradle/pull/8819)
