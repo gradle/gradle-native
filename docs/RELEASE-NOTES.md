@@ -4,6 +4,10 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 
 ## Changes included in Gradle nightly (next release)
 
+## Changes included in Gradle 5.6
+
+- Support XCTest's `LinuxMain.swift` pattern - [PR](https://github.com/gradle/gradle/pull/9680)
+
 ## Changes included in Gradle 5.5
 
 - All native documentations have been updated to use the new C++ plugins
