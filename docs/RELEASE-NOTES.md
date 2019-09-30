@@ -7,6 +7,8 @@ We add noteworthy updates to our [native-samples](https://github.com/gradle/nati
 ## Changes included in Gradle 6.0
 
 - New C++ and Swift plugins are deincubated
+- Visual Studio generated IDE files honors the `/std:c++14` and `/std:c++latest` compiler flags for IntelliSense
+- Visual Studio 2019 compilers are officially supported
 
 ## Changes included in Gradle 5.6
 
