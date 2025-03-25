@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Android Issue Tracker
+    url: https://source.android.com/source/report-bugs
+    about: For Android-related issues, please use the Android Issue Tracker.
